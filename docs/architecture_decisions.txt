@@ -1,0 +1,11 @@
+Using REST:
+
+I decided to use REST for Person and Connections because I wanted to ensure a clear structure for the information being sent.
+
+Using gRPC:
+
+gRPC is mainly used to handle Location data. If location data is sent frequently, then we want to aim for performance, gRPC performs better than REST because it is compressed and the transmitted data is better encoded
+
+Using Kafka:
+Kafka is mainly used to receive location data, process it and store it in the database. Since location data occurs frequently, kafka
+ensures that the data stream is continuous and fault tolerant. Kafka can do the processing to ensure that the data arriving at the database is in the expected format.

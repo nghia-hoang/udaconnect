@@ -1,0 +1,3 @@
+the sample payload send to the location gRPC service, you can run the "writer.py" file in the "module" folder.
+
+the sample payload to get all location from database, you can run the "getter.py" file in the "module" folder.
